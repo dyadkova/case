@@ -1,0 +1,90 @@
+/*Для экранов с шириной до 1140*/
+@media (max-width:1140px){
+.footer{
+    padding:40px 0 60px;
+}
+.footer-row{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+.footer-col{
+    margin-bottom: 50px;
+}
+.footer-col:first-child{
+    margin-bottom: 0;
+}
+}
+/*Для экранов с шириной до 760*/
+@media(max-width:1110px){
+    .card{
+        width:calc(50% - 15px);
+    }
+}
+/*Для экранов с шириной до 760*/
+@media(max-width:760px){
+.header-title{
+    font-size: 32px;
+    }
+.header-subtitle{
+    font-size: 14px;
+}
+.portfolio{
+    padding:40px 0 60px;
+}
+.portfolio-header{
+    font-size:32px;
+    margin-bottom:30px;
+}
+.card{
+    width:100%;
+}
+.card:last-child, .card:nth-last-child(2){
+    margin-bottom:30px;
+
+}
+.card-link{
+    padding:15px;
+}
+.portfolio-cards-wrapper{
+    justify-content: center;
+    text-align: center;
+}
+.card-img{
+    margin-bottom:10px;
+}
+.card-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.name-footer-copyright{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.footer-icons p, .footer-contact p,.footer-copyright p,.card p{
+    font-size: 14px;
+}
+.footer-contact p{
+margin:15px 0 0 0;
+}
+.project{
+    padding:40px 0 60px;
+}
+.project-header{
+    font-size: 28px;
+    margin-bottom:14px;
+}
+.project-image {
+    margin-bottom: 20px;
+}
+.project-description{
+    margin-bottom: 50px;
+}
+.project-batton-back{
+    padding:0 10px 0;
+    width:100%;
+    max-width:320px;
+}
+}
